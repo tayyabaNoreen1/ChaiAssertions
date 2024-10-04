@@ -110,7 +110,7 @@ describe('Chai Assert', function () {
 
     })
 
-    it.only('validate whether a specific input is an object, or a String, or a number, or a Boolean', function () {
+    it('validate whether a specific input is an object, or a String, or a number, or a Boolean', function () {
 
         function myObj() {
             return {
